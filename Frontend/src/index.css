@@ -1,0 +1,148 @@
+@import 'tailwindcss';
+
+/* 
+html{
+  scrollbar-width: none;
+} */
+
+.nav{
+  @apply w-full fixed h-fit  bg-white/50 backdrop-blur-xs items-center top-0 py-4  shadow-xs flex justify-between px-20;
+}
+
+.logo{
+  @apply font-bold text-xl flex gap-2 cursor-pointer;
+}
+
+.login-text{
+  @apply text-sm font-semibold px-4  cursor-pointer;
+}
+
+.login-text:hover{
+  @apply px-4 py-2 bg-[hsl(240,60%,95%)] text-[hsl(240,60%,50%)] rounded-lg;
+}
+
+.signup-nav{
+  @apply px-3 py-2 bg-[hsl(240,60%,55%)] text-sm font-semibold text-white rounded-lg hover:bg-[hsl(240,60%,60%)]  cursor-pointer;
+}
+
+.home{
+  @apply bg-white w-full h-fit top-0 flex justify-center;
+}
+
+.home-context{
+  @apply bg-white mt-38 mx-92;
+}
+
+.hometext{
+  @apply text-black text-5xl font-bold text-center py-5
+}
+
+.homepara{
+  @apply text-gray-500 text-xl text-center 
+}
+
+.signup-home{
+  @apply  cursor-pointer px-8 py-2 bg-[hsl(240,60%,55%)] text-lg font-semibold text-white rounded-lg hover:bg-[hsl(240,60%,60%)];
+}
+
+.login-home{
+  @apply  cursor-pointer px-8 font-semibold py-2 bg-white rounded-lg border-gray-200 border text-lg hover:bg-[hsl(240,60%,95%)] hover:text-[hsl(240,60%,50%)]
+}
+
+.login-page{
+  @apply w-full min-h-screen bg-white flex justify-center items-center;
+}
+
+.login-page form{
+  @apply flex flex-col items-start  
+}
+
+.login-page form input{
+  @apply w-full px-2 py-3 bg-gray-100 border-gray-200 border-1 text-sm focus:outline-[hsl(240,60%,55%)] rounded-lg
+}
+
+.login-page form label{
+  @apply text-sm font-bold py-3
+}
+
+.NotFound-container {
+  @apply w-screen h-screen flex justify-center items-center;
+}
+
+.side-bar{
+  @apply min-w-[255px] left-0 h-screen border-r-1 border-gray-300;
+}
+
+.dash{
+  @apply flex flex-col mx-4 py-5 text-sm font-semibold;
+}
+
+
+.dash h1{
+  @apply py-2.5 px-3 flex gap-5 items-center cursor-pointer rounded-xl;
+}
+
+.active h1{
+  @apply bg-gray-100 w-full py-2.5 ;
+}
+
+.dash h1:hover{
+  @apply bg-[hsl(240,60%,95%)] text-[hsl(240,60%,60%)]
+}
+
+.dash-cat{
+  @apply flex flex-col py-2;
+}
+
+.dash-cat h1{
+  @apply py-2.5 px-3 flex gap-5 text-sm items-center cursor-pointer rounded-xl font-semibold;
+}
+
+.dash-cat h1:hover{
+  @apply bg-[hsl(240,60%,95%)] text-[hsl(240,60%,60%)]
+}
+
+.dash-cat h1:active{
+  @apply bg-gray-100 w-full py-2.5 ;
+}
+
+
+.prof{
+  @apply p-5 border-t-1 border-gray-300 flex flex-col mt-60 text-sm;
+}
+
+.logout{
+  @apply cursor-pointer text-red-500 font-semibold my-4 py-2.5 px-3 rounded-xl flex gap-5 items-center; 
+}
+
+.logout:hover{
+  @apply  bg-red-100 
+}
+
+.Add-page{
+  @apply w-[500px] bg-white flex items-start;
+}
+
+.Add-page form{
+  @apply flex flex-col items-start  
+}
+
+.Add-page form input{
+  @apply w-full px-2 py-3 bg-gray-100 border-gray-200 border-1 text-sm focus:outline-[hsl(240,60%,55%)] rounded-lg
+}
+
+.Add-page form textarea{
+  @apply w-full px-2 py-3 bg-gray-100 border-gray-200 border-1 text-sm focus:outline-[hsl(240,60%,55%)] rounded-lg
+}
+
+.Add-page form label{
+  @apply text-sm font-bold py-3
+}
+
+/* .list-cat li:active{
+  @apply rounded-xl p-2 text-sm bg-white text-black
+} */
+
+.list-cat li{
+  @apply  px-2 py-1
+}

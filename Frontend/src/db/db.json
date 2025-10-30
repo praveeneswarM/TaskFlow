@@ -1,0 +1,60 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Complete project report",
+      "desc": "Finalize the Q1 project proposal and send it to stakeholders for review.",
+      "cat": "work",
+      "date": "2025-10-15T14:30",
+      "completed": false
+    },
+    {
+      "id": "9",
+      "title": "Complete project report",
+      "desc": "Finalize the Q1 project proposal and send it to stakeholders for review.",
+      "cat": "work",
+      "date": "2025-10-15T14:30",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "title": "Clean the living room",
+      "desc": "Vacuum the floor, wipe furniture, and organize the bookshelves before guests arrive.",
+      "cat": "home",
+      "date": "2025-10-11T18:00",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "title": "Buy groceries",
+      "desc": "Milk, eggs, bread, and fruits for the week.",
+      "cat": "home",
+      "date": "2025-10-12T10:00",
+      "completed": false
+    },
+    {
+      "id": "4",
+      "title": "Team meeting",
+      "desc": "Discuss project milestones and assign tasks for next sprint.",
+      "cat": "work",
+      "date": "2025-10-14T09:00",
+      "completed": false
+    },
+    {
+      "id": "5",
+      "title": "Coffee with friends",
+      "desc": "Catch up at the local cafe and discuss weekend plans.",
+      "cat": "casuals",
+      "date": "2025-10-13T16:00",
+      "completed": false
+    },
+    {
+      "id": "6",
+      "title": "Read a book",
+      "desc": "Finish reading the last two chapters of the novel.",
+      "cat": "casuals",
+      "date": "2025-10-14T20:00",
+      "completed": false
+    }
+  ]
+}
