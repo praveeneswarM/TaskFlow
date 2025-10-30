@@ -23,8 +23,6 @@ It allows users to easily manage, categorize, and track tasks with a simple and 
 - Backend developed with **Spring Boot**  
 - Frontend connected using **Fetch API**
 
-✅ **Responsive UI**
-- Built with ReactJS and TailwindCSS for a clean, modern look
 
 ---
 
